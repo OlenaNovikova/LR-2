@@ -1,1 +1,108 @@
 <!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Тест: Принципи роботи комп’ютерних мереж</title>
+</head>
+<body>
+  <h1>Тест: Принципи роботи комп’ютерних мереж</h1>
+
+  <form id="quiz-form">
+
+    <!-- Питання 1 -->
+    <div class="question">
+      <p>1. Що таке IP-адреса?</p>
+      <label><input type="radio" name="q1" value="A"> A) Тип кабелю для з’єднання</label><br>
+      <label><input type="radio" name="q1" value="B"> B) Програма для керування мережею</label><br>
+      <label><input type="radio" name="q1" value="C"> C) Унікальний ідентифікатор пристрою в мережі</label><br>
+      <label><input type="radio" name="q1" value="D"> D) Назва комп’ютера</label>
+    </div>
+
+    <!-- Питання 2 -->
+    <div class="question">
+      <p>2. Яка модель описує 7 рівнів взаємодії в мережах?</p>
+      <label><input type="radio" name="q2" value="A"> A) TCP/IP</label><br>
+      <label><input type="radio" name="q2" value="B"> B) DNS</label><br>
+      <label><input type="radio" name="q2" value="C"> C) OSI</label><br>
+      <label><input type="radio" name="q2" value="D"> D) HTTP</label>
+    </div>
+
+    <!-- Питання 3 -->
+    <div class="question">
+      <p>3. Яке обладнання з’єднує кілька локальних мереж?</p>
+      <label><input type="radio" name="q3" value="A"> A) Комутатор</label><br>
+      <label><input type="radio" name="q3" value="B"> B) Маршрутизатор</label><br>
+      <label><input type="radio" name="q3" value="C"> C) Принтер</label><br>
+      <label><input type="radio" name="q3" value="D"> D) Кабель</label>
+    </div>
+
+    <!-- Питання 4 -->
+    <div class="question">
+      <p>4. Що таке DNS?</p>
+      <label><input type="radio" name="q4" value="A"> A) Пристрій для зберігання даних</label><br>
+      <label><input type="radio" name="q4" value="B"> B) Система безпеки</label><br>
+      <label><input type="radio" name="q4" value="C"> C) Служба перетворення доменних імен у IP</label><br>
+      <label><input type="radio" name="q4" value="D"> D) Програма для редагування сайтів</label>
+    </div>
+
+    <!-- Питання 5 -->
+    <div class="question">
+      <p>5. Що з наведеного є протоколом передачі даних?</p>
+      <label><input type="radio" name="q5" value="A"> A) HDMI</label><br>
+      <label><input type="radio" name="q5" value="B"> B) TCP</label><br>
+      <label><input type="radio" name="q5" value="C"> C) USB</label><br>
+      <label><input type="radio" name="q5" value="D"> D) SSD</label>
+    </div>
+
+    <!-- Питання 6 -->
+    <div class="question">
+      <p>6. Який тип мережі охоплює великі відстані?</p>
+      <label><input type="radio" name="q6" value="A"> A) LAN</label><br>
+      <label><input type="radio" name="q6" value="B"> B) PAN</label><br>
+      <label><input type="radio" name="q6" value="C"> C) WAN</label><br>
+      <label><input type="radio" name="q6" value="D"> D) WLAN</label>
+    </div>
+
+    <!-- Питання 7 -->
+    <div class="question">
+      <p>7. Для чого використовується комутатор (switch)?</p>
+      <label><input type="radio" name="q7" value="A"> A) Друк документів</label><br>
+      <label><input type="radio" name="q7" value="B"> B) З’єднання пристроїв в одній мережі</label><br>
+      <label><input type="radio" name="q7" value="C"> C) Роздача Wi-Fi</label><br>
+      <label><input type="radio" name="q7" value="D"> D) Резервне копіювання</label>
+    </div>
+
+    <!-- Питання 8 -->
+    <div class="question">
+      <p>8. Що забезпечує DHCP-сервер?</p>
+      <label><input type="radio" name="q8" value="A"> A) Захист мережі</label><br>
+      <label><input type="radio" name="q8" value="B"> B) Автоматичну видачу IP-адрес</label><br>
+      <label><input type="radio" name="q8" value="C"> C) Резервне копіювання</label><br>
+      <label><input type="radio" name="q8" value="D"> D) Відеозв’язок</label>
+    </div>
+
+    <!-- Питання 9 -->
+    <div class="question">
+      <p>9. Який протокол забезпечує захищене з’єднання в Інтернеті?</p>
+      <label><input type="radio" name="q9" value="A"> A) FTP</label><br>
+      <label><input type="radio" name="q9" value="B"> B) HTTP</label><br>
+      <label><input type="radio" name="q9" value="C"> C) HTTPS</label><br>
+      <label><input type="radio" name="q9" value="D"> D) SSH</label>
+    </div>
+
+    <!-- Питання 10 -->
+    <div class="question">
+      <p>10. Що таке пакет даних у мережі?</p>
+      <label><input type="radio" name="q10" value="A"> A) Група кабелів</label><br>
+      <label><input type="radio" name="q10" value="B"> B) Упакований пристрій</label><br>
+      <label><input type="radio" name="q10" value="C"> C) Частина переданої інформації</label><br>
+      <label><input type="radio" name="q10" value="D"> D) Мережева карта</label>
+    </div>
+
+    <br>
+    <button type="submit">Перевірити</button>
+  </form>
+
+  <div id="result"></div>
+</body>
+</html>
